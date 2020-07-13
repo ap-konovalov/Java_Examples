@@ -6,5 +6,8 @@ public class TestClass {
         TypesOfVariables.PrintTypesOfVariables();
 
         MyArrays.ArraysInitialization();
+
+        SimpleOperations.SimpleOperationsExamples();
+        SimpleOperations.StringOperations();
     }
 }
