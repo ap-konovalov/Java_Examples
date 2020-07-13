@@ -12,6 +12,7 @@ public class Main {
 //
 //        ConditionalStatements.StatementsExamples();
 
-        Cycles.CyclesExamples();
+//        Cycles.CyclesExamples();
+        ListCollection.ListsExamples();
     }
 }
