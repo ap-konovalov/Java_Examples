@@ -1,10 +1,11 @@
 package mypackage;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ListCollection {
-    public static void ListsExamples(){
+    public static void ListsExamples() {
 
         List<Integer> prices = new ArrayList<>();
 
@@ -15,7 +16,7 @@ public class ListCollection {
 
         int firstPrice = prices.get(0);
 
-        prices.set(1,123);
+        prices.set(1, 123);
         System.out.println("Change list(1) value to 123. Command: list.set(1,123); Result: " + prices.get(1));
 
         // remove element by index
@@ -46,5 +47,18 @@ public class ListCollection {
         System.out.println("newPrices containsAll elements from prices ? " + newPrices.containsAll(prices));
 
         newPrices.removeAll(prices);
+
+        newPrices.add(21);
+
+        Iterator<Integer> iterator = newPrices.iterator();
+
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
+
+//        System.out.println("Iterator.next = " + iterator.next());
+//        System.out.println("Iterator.next = " + iterator.next());
+//        System.out.println("Iterator.hasNext ? " + iterator.hasNext());
+
     }
 }
