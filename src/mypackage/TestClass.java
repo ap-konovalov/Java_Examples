@@ -9,5 +9,7 @@ public class TestClass {
 
         SimpleOperations.SimpleOperationsExamples();
         SimpleOperations.StringOperations();
+
+        ConditionalStatements.StatementsExamples();
     }
 }

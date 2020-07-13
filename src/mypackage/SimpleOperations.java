@@ -27,7 +27,7 @@ public class SimpleOperations {
         System.out.println("\"Text\" contains \"xt\" result = " + text.contains("xt"));
         System.out.println("\"Text\" startsWith \"Te\" result = " + text.startsWith("Te"));
         System.out.println("\"Text\" endsWith \"xt\" result = " + text.endsWith("xt"));
-        System.out.println("\"Text\" substring(1,3) result = " + text.substring(1,3));
+        System.out.println("\"Text\" substring(1,3) result = " + text.substring(1, 3));
         System.out.println("\"Text\" concat(text) result = " + text.concat(text));
 
         String goodbye = "Goodbye,world";
@@ -40,7 +40,7 @@ public class SimpleOperations {
         String name = "Ivan";
 
         System.out.println("Formatted string:");
-        System.out.println(String.format(welcome,name,age));
+        System.out.println(String.format(welcome, name, age));
 
         String myAge = "30";
         int myAgeInteger = Integer.parseInt(myAge);

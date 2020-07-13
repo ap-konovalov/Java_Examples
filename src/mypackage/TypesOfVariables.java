@@ -17,7 +17,7 @@ public class TypesOfVariables {
 
         String hello = "Hello";
         String world = "world";
-        String hw =  hello + " " + world;
+        String hw = hello + " " + world;
 
         char symbA = 'a';
 
