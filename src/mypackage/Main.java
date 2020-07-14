@@ -27,13 +27,21 @@ public class Main {
 //
 //        System.out.println("Array sum: " + Methods.getSum(array));
 
-        ExceptionsExamples.devide(4, 2);
+//        ExceptionsExamples.devide(4, 2);
+//
+//        try {
+//            ExceptionsExamples.writeAge(-1);
+//        } catch (IllegalArgumentException e) {
+//            System.out.println(e.getMessage());
+//        }
 
-        try {
-            ExceptionsExamples.writeAge(-1);
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-        }
+        Car mazda = new Car();
+        mazda.weight = 50;
+        mazda.maxWeight = 300;
+        mazda.colour = "black";
+
+        mazda.addWeight(500);
+        mazda.drive(70);
 
     }
 }
