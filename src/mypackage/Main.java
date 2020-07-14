@@ -15,6 +15,8 @@ public class Main {
 //        Cycles.CyclesExamples();
 //        ListCollection.ListsExamples();
 
-        SetCollection.SetExample();
+//        SetCollection.SetExample();
+
+        MapCollection.MapCollectionExample();
     }
 }
