@@ -1,7 +1,6 @@
 package mypackage;
 
 public class Car {
-    int height;
     int width;
     int length;
     int weight;
@@ -9,6 +8,16 @@ public class Car {
     String colour;
     int speed;
     int maxSpeed;
+
+    // Create constant
+    final String country = "Russia";
+
+    static int carAgeStatic;
+    static void staticMethod()
+    {
+        System.out.println("Static method");
+    }
+
 
     public Car(){
         System.out.println("New car created");

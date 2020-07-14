@@ -45,5 +45,11 @@ public class Main {
 
         Car yazik = new Car("grey");
 
+        Car.carAgeStatic = 2009;
+        Car.staticMethod();
+
+        System.out.println(mazda.carAgeStatic);
+        System.out.println(yazik.carAgeStatic);
+
     }
 }
