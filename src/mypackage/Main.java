@@ -17,6 +17,15 @@ public class Main {
 
 //        SetCollection.SetExample();
 
-        MapCollection.MapCollectionExample();
+//        MapCollection.MapCollectionExample();
+
+        System.out.println("Method getSum result: " + Methods.getSum(3, 2));
+        System.out.println("Method getSum overload result: " + Methods.getSum(3, 2, 5));
+        Methods.showSum(3, 2, 5);
+
+        int[] array = new int[]{2, 3, 4};
+
+        System.out.println("Array sum: " + Methods.getSum(array));
+
     }
 }
