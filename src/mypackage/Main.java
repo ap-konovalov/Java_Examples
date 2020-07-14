@@ -43,5 +43,7 @@ public class Main {
         mazda.addWeight(500);
         mazda.drive(70);
 
+        Car yazik = new Car("grey");
+
     }
 }

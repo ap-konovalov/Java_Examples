@@ -10,6 +10,15 @@ public class Car {
     int speed;
     int maxSpeed;
 
+    public Car(){
+        System.out.println("New car created");
+    }
+
+    public Car(String colour){
+        this.colour = colour;
+        System.out.println("New " + colour + " car created");
+    }
+
     public void addWeight(int weight) {
         this.weight += weight;
         System.out.println("Current weight = " + this.weight);
