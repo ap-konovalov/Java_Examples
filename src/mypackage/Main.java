@@ -13,6 +13,8 @@ public class Main {
 //        ConditionalStatements.StatementsExamples();
 
 //        Cycles.CyclesExamples();
-        ListCollection.ListsExamples();
+//        ListCollection.ListsExamples();
+
+        SetCollection.SetExample();
     }
 }
