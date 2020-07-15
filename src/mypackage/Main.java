@@ -77,9 +77,15 @@ public class Main {
 
         //// ABSTRACT CLASSES
 
-        AbstractClassRealization someClass = new AbstractClassRealization();
-        someClass.sayHi();
-        someClass.walk();
+//        AbstractClassRealization someClass = new AbstractClassRealization();
+//        someClass.sayHi();
+//        someClass.walk();
 
+        //// INTERFACES
+
+        BikeWithInterface bike = new BikeWithInterface();
+        bike.go();
+        bike.stop();
+        bike.setWeight(20);
     }
 }
