@@ -17,4 +17,8 @@ public class Animal {
         priv = 2;
         protect = 3;
     }
+
+    public void sound() {
+        System.out.println("Hello");
+    }
 }

@@ -22,4 +22,8 @@ public class Dog extends Animal {
         withoutMod = 4;
     }
 
+    @Override
+    public void sound() {
+        System.out.println("Gav-gav!");
+    }
 }
