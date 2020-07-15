@@ -59,10 +59,20 @@ public class Main {
 
         //// INHERITANCE
 
-        Dog sharik = new Dog();
-        sharik.name = "sharik";
-        sharik.walk("ylitsa");
-        sharik.sit();
+//        Dog sharik = new Dog();
+//        sharik.name = "sharik";
+//        sharik.walk("ylitsa");
+//        sharik.sit();
 
+        //// ENCAPSULATION
+
+        Dog sharik = new Dog();
+        sharik.pub = 1;
+        sharik.protect = 3;
+        sharik.withoutMod = 4;
+
+        // Use getter and setter for private variable
+        sharik.setWeigh(2);
+        System.out.println("Dog weight: " + sharik.getWeigh());
     }
 }
