@@ -19,6 +19,8 @@ public class Main {
 
 //        MapCollection.MapCollectionExample();
 
+        //// METHODS
+
 //        System.out.println("Method getSum result: " + Methods.getSum(3, 2));
 //        System.out.println("Method getSum overload result: " + Methods.getSum(3, 2, 5));
 //        Methods.showSum(3, 2, 5);
@@ -26,6 +28,8 @@ public class Main {
 //        int[] array = new int[]{2, 3, 4};
 //
 //        System.out.println("Array sum: " + Methods.getSum(array));
+
+        //// EXCEPTIONS
 
 //        ExceptionsExamples.devide(4, 2);
 //
@@ -35,21 +39,30 @@ public class Main {
 //            System.out.println(e.getMessage());
 //        }
 
-        Car mazda = new Car();
-        mazda.weight = 50;
-        mazda.maxWeight = 300;
-        mazda.colour = "black";
+        //// CLASSES
 
-        mazda.addWeight(500);
-        mazda.drive(70);
+//        Car mazda = new Car();
+//        mazda.weight = 50;
+//        mazda.maxWeight = 300;
+//        mazda.colour = "black";
+//
+//        mazda.addWeight(500);
+//        mazda.drive(70);
+//
+//        Car yazik = new Car("grey");
+//
+//        Car.carAgeStatic = 2009;
+//        Car.staticMethod();
+//
+//        System.out.println(mazda.carAgeStatic);
+//        System.out.println(yazik.carAgeStatic);
 
-        Car yazik = new Car("grey");
+        //// INHERITANCE
 
-        Car.carAgeStatic = 2009;
-        Car.staticMethod();
-
-        System.out.println(mazda.carAgeStatic);
-        System.out.println(yazik.carAgeStatic);
+        Dog sharik = new Dog();
+        sharik.name = "sharik";
+        sharik.walk("ylitsa");
+        sharik.sit();
 
     }
 }
