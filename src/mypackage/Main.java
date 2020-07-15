@@ -66,13 +66,20 @@ public class Main {
 
         //// ENCAPSULATION
 
-        Dog sharik = new Dog();
-        sharik.pub = 1;
-        sharik.protect = 3;
-        sharik.withoutMod = 4;
+//        Dog sharik = new Dog();
+//        sharik.pub = 1;
+//        sharik.protect = 3;
+//        sharik.withoutMod = 4;
+//
+//        // Use getter and setter for private variable
+//        sharik.setWeigh(2);
+//        System.out.println("Dog weight: " + sharik.getWeigh());
 
-        // Use getter and setter for private variable
-        sharik.setWeigh(2);
-        System.out.println("Dog weight: " + sharik.getWeigh());
+        //// ABSTRACT CLASSES
+
+        AbstractClassRealization someClass = new AbstractClassRealization();
+        someClass.sayHi();
+        someClass.walk();
+
     }
 }
